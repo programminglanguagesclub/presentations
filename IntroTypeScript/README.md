@@ -6,28 +6,21 @@
 npm install -g typescript
 ```
 
-##To install definition manager
-###(Unfortunately needed to show dynamic type enforcement)
-
-```
-npm install tsd -g
-``` 
-
-###...and then define node
-
-```
-tsd intall node --save
-```
-
-##To run greeter.ts
+##To compile greeter.ts
 
 ```
 tsc greeter.ts
 ```
 
-##To run enforcement.ts
+##To compile bad.ts
 
 ```
-tsc --strict enforcement.ts
+tsc bad.ts
+```
+
+##To run bad.js
+
+```
+node bad.js "Number(2)"
 ```
 
