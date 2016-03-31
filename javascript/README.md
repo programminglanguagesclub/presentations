@@ -1,1 +1,1 @@
-#This is the repo for JavaScript Deign Patterns#
+#This is the repo for JavaScript Design Patterns#
